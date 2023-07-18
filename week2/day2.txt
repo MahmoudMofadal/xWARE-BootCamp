@@ -1,0 +1,55 @@
+Exercise 1
+1. Create your `xware-bootcamp` repository on Github.
+xWARE-BootCamp/
+2. Clone `xware-bootcamp` repo to your Desktop.
+git clone https://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@github.com/MahmoudMofadal/xWARE-BootCamp.git
+   cd xWARE-BootCamp/
+3. Create a new folder `week1` using command kine `mkdir`.
+mkdir week1
+4. Create new file inside `week1` called `README.md` using `touch`.
+touch README.md
+5. Add this line `# Hello World From My New Shiny Repository xware-bootcamp` to the file `README.md` using `echo "" > README.md`
+# Hello World From My New Shiny Repository xware-bootcamp
+6. add the folder `week1` to the staging area.
+git add .
+7. Commit the staged files.
+git commit
+8. See your tracking status using `git status` to make sure all files are committed.
+git status
+9. Push your changes to Github using `git push`.
+git push
+Exercise 2
+1. Delete your local repo.
+rm
+2. clone your repo locally.
+git@github.com:MahmoudMofadal/Task.git
+3. create new branch called `feature-add-new-week` from `main` branch.
+git config --local gitflow.branch.develop develop 
+4. create new folder called `week2` using command kine `mkdir`
+mkdir week2
+5. Create new file inside `week2` called `README.md` using `touch`.
+touch README.md
+6. Add this line `# Hello From Week 2` to the file `README.md` using `echo "" > README.md`
+echo "'# Hello From Week 2'" > README.md
+7. add the folder `week1` to the staging area.
+gitt add .
+8. Commit the staged files
+git commit
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+9. See your tracking status using `git status` to make sure all files are committed.
+git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+10. merge your branch to `main` branch.
+git merge branch
+11. Delete your branch.
+-d
+12. See all your commits.
+git status
